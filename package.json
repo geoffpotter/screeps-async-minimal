@@ -1,0 +1,34 @@
+{
+  "name": "screeps-async-minimal",
+  "version": "1.0.0",
+  "description": "Minimal setup showing use of the screeps-async-shims",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffpotter/screeps-async-minimal.git"
+  },
+  "author": "Geoff Potter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geoffpotter/screeps-async-minimal/issues"
+  },
+  "homepage": "https://github.com/geoffpotter/screeps-async-minimal#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@types/screeps": "^3.2.4",
+    "rollup": "^2.57.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "screeps-ai-utils": "latest",
+    "screeps-async-shims": "latest",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
